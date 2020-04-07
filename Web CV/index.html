@@ -1,0 +1,164 @@
+<!--PERHATIAN SBELEUM MEMULAI BERDOALAH DAHULU,
+PERHATIKAN BEBERAPA POINT BERIKUT:
+- DI SARANKAN MENGGUNAKAN EDITOR TEXT KUSUS PEMROGRAMAN WEB SEPERTI ATOM,SUMBLIM, ATAU NOTEPAD++ AGAR MUDAH MEMBEDAKAN MANA TEKS YANG BOLEH DI EDIT
+- JANGAN MENGUBAH KODE SELAINNYANG DI BERI TANDA  SEPERTI TULISAN INI DAN INSTRUKSI YANG TERTULIS
+- SIAPKAN BEBERAPA FOTO YANG RELEVAN DENGAN PENGALAMAN DAN DUNIA KERJA ANDA
+- SETIAP TEKS ATAU FOTO YANG ANDA EDIT JANGAN LUPA SAVE , KEMUDIAN LANGSUNG LIAT PERUBAHAN NYA DI BROWSER (FIREFOX DAN CHROME DI SARANKAN)
+- CARA MEMBUKA DI BROWSER ; KLIK KANAN PADA INDEX.HTML - OPEN WITH - CHROME/FIREFOX
+- PERHATIKAN INSTRUKSI YANG BERTANDA <!>
+- SETELAH SELESAI MENGEDIT ANDA DAPAT MEMBIARKAN ATAU MENGAHPUS INSTRUKSI INI
+- SILAHKAN MULAI DARI GANTI TITLE DENGAN NAMA DAN GELAR ANDA
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CV online</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="https://www.blogger.com/favicon-image.g?blogID=6644449836502203546">
+<link rel="stylesheet" href="asset/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+<link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</head>
+<body>
+  <nav>
+    <ul>
+      <!-- anda dapat mengganti teks "Personal, Exprience, Education, Skill"
+      dengan : data pribadi, pengalaman dll, atau untuk menghapus blok dari tag <li> sampai </li> lalu delete -->
+        <li><a href="#content1">Personal</a></li>
+        <li><a href="#content2">Exprience</a></li>
+        <li><a href="#content3">Education</a></li>
+        <li><a href="#content4">Skill</a></li>
+        <li><a href="https://cripcips.net/">Blog</a></li>
+      </ul>
+  </nav>
+      <div class="banner">
+        <h1>Hi Welcome!</h1>  <!--Ganti dengan pesan yang di inginkan-->
+        <p>Selamat datang di website profesional saya<br> Silahkan hubungi kontak saya jika ada pertanyaan<br></p> <!--Ganti dengan pesan yang di inginkan-->
+        <div class="pp"> <img src=asset/img/levi.jpg alt=""><!--Ganti dengan foto anda masukan foto ke dalam folder lalu ganti "pw2.jpg" dengan nama foto anda .jpg-->
+        </div>
+      </div>
+    <div class="boxcontent">
+      <div class="card" id="content1">
+          <h2>Personal Data </h2><br>
+          <!--Silahkan ganti Biodata menyesuaikan dengan biodata anda, dan teks Short time line dengan cerita atau pengalaman pribadi anda di dunia kerja-->
+    <p>
+      Name       : Levi Ackerman <br>
+      Birth date : Underground / 18 July 1987 <br>
+      Address    : Distrik trots, jl. Tembok Titan, No 69, Paradis Island <br>
+      Email      : Levi@corplegion.com <br>
+      Phone      : 086978100 <br>
+    </p>
+    <h3>Short Story</h3>
+    <p>
+    Levi has short, straight black hair styled in an undercut, as well as narrow, intimidating dull gray eyes with dark circles under them and a deceptively youthful face.
+    He is quite short, but his physique is well-developed in musculature from extensive vertical maneuvering equipment usage.
+    He is usually either frowning or expressionless; that, plus his extremely calm demeanor, often makes it difficult for others to guess what he is thinking.
+    He is most often seen in his Survey Corps uniform, with a light gray button up shirt underneath along with his trademark white ascot.
+    When embarking on expeditions outside the Walls, he also wears the Survey Corps' green hooded cloak. Once, when forced to take leave from his duties due to injury,
+    Levi was seen in a black suit, plain white shirt, ascot, and dress shoes.[citation needed] However, since the beginning of the coup d'état, he has left the ascot off.
+    For most of the time during which the Survey Corps were on the run from the military and monarchy, he simply wore his vertical maneuvering equipment harness over casual clothes.
+   </p>
+      </div>
+    <div class="card" id="content2">
+        <!--Silahkan ganti daftar pengalaman detail di sini dengan pengalaman kerja atau karir anda ,
+        untuk menambahkan pengalaman tinggal copypaste dari yang sebelum nya-->
+        <h2>list of Exprience</h2>
+        <p> 2016 – 2017 PT. Mencari Cinta Sejati - Sebagai Preman Pasar<br><br>
+            2017 – 2018 PT. Facebook Indonesia -Sebagai Marketing eksekutif <br><br>
+            2019 - Sekarang PT. Perkebunan Tauge - Sebagai Manager Operasional <br></p>
+    </div>
+    <div class="card" id="content3">
+        <h2>Formal Education</h2>
+        <p>
+          <!--Silahkan ganti daftar latar belakang pendidikan anda di sini silahkan di hapus atau ,
+          untuk menambahkan tinggal copypaste dari yang sebelum nya-->
+        2000-2006  SD Negeri xx, Vikend<br><br>
+        2006-2008  SMP Negeri xx Sanhok<br><br>
+        2008-2011  SMA Negeri xx Erangel<br><br>
+        2011-2015  Universitas Kungfu - Jurusan 3D Manuver<br><br></p>
+        <h3>Nonformal Education</h3>
+        <p>
+        2011  Kursus Mengemudi-  Ms. Puff boating school<br><br>
+        2013  English basic - Nama tempat kusus<br><br>
+        2014  English conversation class - Nama tempat kusus<br><br>
+        2015  TOEFL Program  – Nama tempat kusus<br><br>
+        2017  Android Programming – Nama tempat kusus<br><br>
+        2018  Jaringan Komputer - Nama tempat kusus<br><br>
+        2019  Web Fundamental – Dicoding.com (promosi hehe)<br>
+        </p>
+      </div>
+    <div class="card" id="content4">
+        <h2>set of skill</h2>
+        <p>
+          <!--Silahkan ganti dan sesuaikan dengan point of skill anda sendiri-->
+      Microsoft Office | WEB design | mySQL database | Java | Native Android Programming | Computer maintenance | Hardware instalation |  OS installation |Trouble shooting | Linux | Windows |
+      Technical Writing | Computer Network | Telco Network | English | Presentaion Skill | CCNA RS certified 10-12-2018
+    </p><br>
+      <div class="wrapper">
+      <div class="owl-carousel owl-theme">
+      <!--Berikut ini adalah widget slide show dari poin pengalaman yang anda buat di atas, silahkan di sesuaikan, atau dapat
+      di ganti dengan gambar yang anda sukai, di sarankan untuk gambar berukuran 200x200px atau maximal 250 x 250 px,
+      anda dapat menambahkan berapapun gambar ang di inginkansebaiknya gambar yang di muat adalah yang berhubungan dengan dunia kerja atau latar belakang pendidikan anda,
+       misalnya anda bekerja di bank bisa masukan gambar aplikasi sepeti microfost office, dll-->
+       <div class="item"> <img src="asset/img/html5x.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/css3x.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/jsx.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/javax.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/vuex.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/natx.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/linx.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/aws1.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/gcx.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/ccnax.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/mkx.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/wn.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/of.png" alt=""> </div>
+       <div class="item"> <img src="asset/img/blogx.png" alt=""> </div>
+       </div>
+       </div>
+       <script src="jquery.2.min.js"></script>
+       <script src="owl.carousel.min.js"></script>
+       <script src="jquer.js"></script>
+       </div>
+    </div>
+
+    <div class="footer">
+      <div class="subfooter">
+      <p>Copyright &#169;<a href='https://cripcips.net/' rel='copyright'>Cripcips.net</a>
+        <!--DILARANG MENGHAPUS CREDIT WEB DESIGNER | copyright weddingkamu.com | contact : andyaruner@gmail.com  |-->
+    </div></div>
+
+</body>
+</html>
